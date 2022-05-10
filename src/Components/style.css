@@ -1,0 +1,40 @@
+.nav{
+ display: flex;
+ list-style: none;
+ justify-content: space-around;
+ align-items: center;
+ background-color: black;
+ height: 80px;
+}
+.header{
+    display: block;  
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.nav>li{
+    color: white;
+}
+.nav>li:hover{
+    color:aqua;
+}
+.productContainer{
+display: flex;
+flex-wrap: wrap;
+padding: 20px;
+justify-content: space-evenly;
+}
+.products{
+ display: flex;
+ width: 25%;
+ padding: 10px;
+ flex-direction: column;
+ margin:10px;
+border: 1px solid black;
+}
+
+.productDesc{
+    display: flex;
+    justify-content: space-between;
+    padding:5px
+}
